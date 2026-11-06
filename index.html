@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cambridge Accreditation System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header / Navigation Bar -->
+<header>
+<nav class="navbar">
+<div class="logo">
+<h2>Cambridge System</h2>
+</div>
+<ul class="nav-links">
+<li><a href="#home">Home</a></li>
+<li><a href="#training-centers">Training Centers</a></li>
+<li><a href="#trainers">Trainers</a></li>
+</ul>
+</nav>
+</header>
+
+<!-- Home Section -->
+<section id="home" class="home-section">
+<div class="home-content">
+<h1>Welcome to Cambridge Accreditation System</h1>
+<p>The official portal for verifying accredited training centers and certified professional trainers.</p>
+<p>Our platform ensures high educational standards across all affiliated institutions.</p>
+<div class="home-buttons">
+<a href="#training-centers" class="btn">View Training Centers</a>
+<a href="#trainers" class="btn btn-secondary">View Trainers</a>
+</div>
+</div>
+</section>
+
+<!-- Training Centers Section -->
+<section id="training-centers" class="section">
+<h2>Accredited Training Centers</h2>
+        
+<!-- Search Input -->
+<div class="search-container">
+<input type="text" id="center-search" placeholder="Search training centers by name...">
+</div>
+
+<!-- Dynamic Container For Cards -->
+<div id="centers-container" class="cards-grid"></div>
+</section>
+
+<!-- Trainers Section -->
+<section id="trainers" class="section">
+<h2>Accredited Trainers</h2>
+
+<!-- Search Input -->
+<div class="search-container">
+<input type="text" id="trainer-search" placeholder="Search trainers by name...">
+</div>
+
+<!-- Dynamic Container For Cards -->
+<div id="trainers-container" class="cards-grid"></div>
+</section>
+
+<!-- Footer -->
+<footer>
+<div class="footer-content">
+<p>Cambridge Accreditation System</p>
+<p>&copy; <span id="current-year"></span> All Rights Reserved.</p>
+</div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
